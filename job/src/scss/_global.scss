@@ -1,0 +1,16 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    overflow-x: hidden;
+    background-color: $lightGrayishCyan;
+    scroll-behavior: smooth;
+    margin: 0;
+}

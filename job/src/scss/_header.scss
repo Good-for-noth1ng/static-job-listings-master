@@ -1,0 +1,17 @@
+
+.header {
+        background-color: $desaturatedDarkCyan;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: -7vw;
+        @include breakpoint-down(small) {
+                background-image: url("./images/bg-header-mobile.svg");
+                width: 100vw;
+                height: 9.75rem;//41.3vw;
+        }
+        @include breakpoint-up(medium) {
+                background-image: url("./images/bg-header-desktop.svg");
+                width: 100vw;
+                height: 9.75rem;//10.8vw;
+        }
+}
